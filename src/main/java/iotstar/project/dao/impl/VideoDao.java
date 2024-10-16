@@ -3,6 +3,7 @@ package iotstar.project.dao.impl;
 import java.util.List;
 
 import iotstar.project.configs.JPAConfig;
+import iotstar.project.dao.ICategoryDao;
 import iotstar.project.dao.IVideoDao;
 import iotstar.project.entity.Category;
 import iotstar.project.entity.Video;
@@ -103,7 +104,7 @@ public class VideoDao implements IVideoDao {
 		}
 	}
 	
-	//Test insert video
+//	//Test insert video
 //	public static void main(String[] args) {
 //		// test insert video
 //		ICategoryDao cateDao = new CategoryDao();

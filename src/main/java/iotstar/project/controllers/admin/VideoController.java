@@ -78,7 +78,7 @@ public class VideoController extends HttpServlet {
 
 				// xử lý upload file
 				String fname = "";
-				String uploadPath = Constant.DEFAULT_FILENAME;
+				String uploadPath = Constant.UPLOAD_DIRECTORY;
 				File uploadDir = new File(uploadPath);
 				if (!uploadDir.exists()) {
 					uploadDir.mkdir();
@@ -129,7 +129,7 @@ public class VideoController extends HttpServlet {
 
 				// xử lý upload file
 				String fname = "";
-				String uploadPath = Constant.DEFAULT_FILENAME;
+				String uploadPath = Constant.UPLOAD_DIRECTORY;
 				File uploadDir = new File(uploadPath);
 				if (!uploadDir.exists()) {
 					uploadDir.mkdir();
