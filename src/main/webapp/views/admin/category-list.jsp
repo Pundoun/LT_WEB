@@ -29,5 +29,6 @@
 				href="<c:url value='/admin/category/delete?id=${cate.categoryid }'/>">Xóa</a>
 			</td>
 		</tr>
-	</c:forEach>
-</table>
+	</c:forEach>	
+</table><br/>
+
